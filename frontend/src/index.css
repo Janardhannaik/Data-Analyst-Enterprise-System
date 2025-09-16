@@ -6,10 +6,6 @@ body {
   @apply bg-black text-white;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* Strict black & white CSS variables and a theme toggle */
 :root {
   --bg: #000000; /* default background: black */
@@ -52,4 +48,17 @@ select {
   border: 1px solid var(--fg);
   color: var(--fg);
   background: transparent;
+}
+@keyframes gradient-x {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 6s ease infinite;
 }
