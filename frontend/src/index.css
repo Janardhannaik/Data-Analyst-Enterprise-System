@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Strict black & white CSS variables and a theme toggle */
+:root {
+  --bg: #000000; /* default background: black */
+  --fg: #ffffff; /* default foreground: white */
+  --muted: #bfbfbf;
+}
+
+/* Optional inverted mode via .inverted on body */
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial;
+}
+
+/* Ensure all cards are white on black or black on white depending on .inverted */
+.card {
+  background: var(--fg);
+  color: var(--bg);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+/* form elements: transparent, border only */
+input,
+textarea,
+select {
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--fg);
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+/* helper */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--fg);
+  color: var(--fg);
+  background: transparent;
+}
