@@ -221,7 +221,7 @@ matplotlib
 
 📹 **Demo Video** →
  
-         ![InShot_20250918_161141197-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8fb78701-c48e-4ded-87a5-87a20cc1746d)
+ ![InShot_20250918_161141197-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8fb78701-c48e-4ded-87a5-87a20cc1746d)
 
 
 🖼️ **Screenshots**
